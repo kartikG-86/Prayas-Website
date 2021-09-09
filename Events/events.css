@@ -11,13 +11,13 @@ body{
 
 .card {
   display: grid;
-  grid-template-columns: 300px;
+  grid-template-columns: 304px;
   grid-template-rows: 210px 210px 80px;
   grid-template-areas: "image" "text" "stats";
 
   border-radius: 18px;
   background: white;
-  box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+  box-shadow: 0px 0px 1px rgba(0,0,0,0.9);
   font-family: roboto;
   text-align: center;
   transition: 0.5s ease;
@@ -142,7 +142,7 @@ body{
 }
 
 .card:hover {
-  transform: scale(1.15);
+  transform: scale(1.005);
   box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
 }
 
