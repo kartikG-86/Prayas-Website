@@ -1,0 +1,48 @@
+nav{
+  background: #172035;
+}
+
+#imglogo{
+  height:70px;
+  width:70px;
+}
+
+#navbarResponsive{
+    margin-left: 20rem;
+}
+.navbar-toggler{
+  margin-right:1rem;
+}
+#nav1{
+  color:white;
+  font-weight: 20;
+  font-family: 'roboto';
+  margin-right: 20px;
+  padding: 20px;
+  text-decoration: none;
+}
+#nav1:hover{
+  color:white;
+  background:#09568d;
+}
+.navbar{
+  padding:0.1rem 0.1rem;
+}
+#footimg{
+  height:60px;
+  width:60px;
+}
+.fa{
+  padding: 10px;
+  font-size: 22px;
+  margin:7px;
+  text-align: center;
+  text-decoration: none;
+  color:white;
+  border-radius:50%;
+  background:#383838;
+}
+.fa:hover {
+  background-color: #09568d;
+  color:white;
+}
