@@ -5,42 +5,18 @@
   padding: 0;
 }
 
-.heading{
-  width: 80rem;
-  height:4rem;
-  background-color:antiquewhite;
-   
-  display: flex;
-  flex-direction:row;
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; 
 }
+  /* @media only screen and (max-width: 75em) {
+    html {
+      font-size: 50%; } } */
 
-.menu{
-  margin-left: 40rem;
-  width:30rem;
-  margin-top: 1rem;
-  display: flex;
-  flex-direction:column;
-}
-
-.text{
-  margin-left: 10rem;
-}
-
-.menu i{
-  font-size:2rem;
-  cursor: pointer;
-  padding-left: 12rem;
-
-}
-
-.active{
-
-   display: none;
-}
 
 .main-text h1{
   background-color: antiquewhite;
-  width: 80rem;
+  width: 98.6vw;
   height: 3rem;
   padding-top: 0.4rem;
   text-align:center;
@@ -48,8 +24,8 @@
   font-family: 'Ubuntu', sans-serif;
 }
 
-h2{
-  font-size:2rem;
+h1{
+  font-size:3rem;
   padding: 0.8rem;
   text-align:center;
   color: blueviolet;
@@ -57,21 +33,15 @@ h2{
   cursor: pointer;
 }
 
-.main-gallery{
-  width: fit-content;
-  height: fit-content;
-  background-color:red;
-}
 
-.gallery,.gallery1 {
+
+.gallery {
     background-color: rgba(128, 128, 128, 0.637);
     grid-column: full-start / full-end;
-    width: fit-content;
-    height:fit-content;
     display: grid;
-    grid-template-columns: repeat(8, 8.57rem);
-    grid-template-rows: repeat(7, 3.3rem);
-    grid-gap: 1.2rem;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(7, 5vw);
+    grid-gap: 1.5rem;
     padding: 1.5rem; 
   }
 
@@ -163,22 +133,24 @@ h2{
 }
 
 .menu-slider{
-  width:45rem;
-  height:3rem;
+  /* width:93rem;
+  height:3rem; */
   display: flex;
   flex-direction: row;
-  padding-left: 35rem;
+  justify-content: center;
+  align-content: center;
+  /* padding-left: 35rem; */
   background-color: rgba(128, 128, 128, 0.637);
 }
 
 .circle{
-  width: 0.7rem;
-  height:0.7rem;
+  width: 1rem;
+  height:1rem;
   cursor: pointer;
   perspective: 1000px;
   border-radius: 50%;
   background-color:rgba(0, 0, 0, 0.534);
-  margin: -0.5rem 0.7rem;
+  margin: 1rem 0.9rem;
   transition:transform 1s;
 }
 
