@@ -1,0 +1,159 @@
+*{
+    text-align: center;
+}
+
+#contactUs{
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1.7%;
+    height: auto;
+
+}
+#contactUsContent{
+    display: flex;
+}
+
+#heading{
+    color: #1d9af0;
+    font-size: 320%;
+}
+
+#contactUsP{
+    color:  #385667;
+    font-size: 140%;
+}
+
+.mail{
+    color: crimson;
+    text-decoration: none;
+}
+
+.mail:hover{
+    text-decoration: underline;
+    color: crimson;
+    font-weight: bold;
+}
+
+
+.btn-grad {
+    margin: 10px;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: #FFF;
+    box-shadow: 0 0 20px #eee;
+    width: 200px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 25px;
+    background-image: linear-gradient(to right, #00d2ff 0%, #3a7bd5 51%, #00d2ff 100%)
+}
+
+.btn-grad:hover{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    margin: 8px 10px 12px;
+    background-position: right center;
+}
+
+.fa{
+    font-size: 24px;
+}
+
+#email,#address{
+    color: rgb(13, 8, 88);
+}
+
+#embedMap{
+    height:300px;
+    width: 350px;
+    padding-left: 30px;
+    justify-content: right;
+}
+
+@media (max-width:700px) {
+    *{
+        font-size: 90%;
+    }
+    .fa{
+        font-size: 20px;
+    }
+    #formLink:link, #formLink:visited{
+        font-size: 15px;
+    }
+}
+
+
+@media (max-width:300px) {
+    *{
+        font-size: 80%;
+    }
+}
+
+@media (max-width:500px) {
+    #contactUsContent{
+        flex-direction: column;
+    }
+    .btn-grad{
+        padding: 7px;
+        font-size: 15px;
+    }
+    #embedMap{
+        align-items: center;
+        padding: 10px 5px;
+    }
+}
+
+@media (max-width:400px) {
+    #embedMap{
+        width:300px;
+    }
+}
+
+@media (max-width:330px) {
+    #embedMap{
+        width:250px;
+        height: 200px;
+    }
+    
+}
+
+@media (min-width:1300px) {
+    #contactUsP{
+        font-size: 150%;
+    }
+    #contactUsContent{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    
+}
+
+@media (min-width:1600px) {
+    *{
+        font-size:120%;
+    }
+    .fa{
+        font-size: 40px;
+    }
+    .btn-grad{
+        width: 500px;
+    }
+    #formLink:link, #formLink:visited{
+        font-size: 50px ;
+        padding:30px 60px ;
+        border-radius: 60px;
+    }
+    #embedMap{
+        width:700px;
+        height: 700px;
+    }
+}
