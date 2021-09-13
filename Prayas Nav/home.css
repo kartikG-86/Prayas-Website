@@ -7,6 +7,11 @@ nav{
   width:70px;
 }
 
+@media screen and (min-width:992px){
+  #navbarResponsive{
+    margin-left:20rem;
+  }
+}
 
 .navbar-toggler{
   margin-right:1rem;
