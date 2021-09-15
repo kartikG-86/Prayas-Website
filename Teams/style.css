@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+button {
+    border: none;
+    background: none;
+}
+
+/*********************************************** TEAMS CSS START ***********************************************/
+.team h1 {
+    text-align: center;
+}
+.team button {
+    padding: 10px 25px;
+    font-weight: 500;
+    color: orangered;
+}
+.team .nav {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+.teams-nav .nav-item-first, .teams-nav .nav-item-first button {
+    border-radius: 30px 0 0 30px;
+}
+.teams-nav .nav-item-last, .teams-nav .nav-item-last button {
+    border-radius: 0 30px 30px 0;
+}
+.teams-nav .nav-item {
+    border: 1px solid orangered;
+}
+.teams-nav.nav-item button {
+    color: orangered;
+    font-weight: 500;
+}
+.teams-nav .nav-links {
+    padding: 10px 25px;
+    border: 1px solid red;
+}
+#team.col-lg-3 {
+    padding: 0 30px;
+}
+.teams-active {
+    background-color: orangered;
+}
+.teams-active button {
+    color: white;
+}
+
+/*-------------------------------------------------------------------------------------------*/
+.team {
+    color: #444444;
+    padding: 120px 0;
+}
+.team a {
+    color: #e03a3c;
+}
+.team a:hover {
+    color: #e76668;
+    text-decoration: none;
+}
+.team .nav {
+    padding-bottom: 30px;
+}
+.team .member {
+    overflow: hidden;
+    border-radius: 5px;
+    background: #fff;
+    margin-bottom: 50px;
+}
+.team .member .member-img {
+    position: relative;
+}
+.team .member .social {
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    right: 0;
+    opacity: 0;
+    transition: ease-in-out 0.3s;
+    text-align: center;
+}
+.team .member:hover .social {
+    opacity: 1;
+    bottom: 15px;
+}
+.team .member .social a{
+    transition: color 0.3s;
+    color: #111111;
+    margin: 0 3px;
+    padding-top: 7px;
+    border-radius: 50px;
+    width: 36px;
+    height: 36px;
+    background: #e03a3c;
+    display: inline-block;
+    transition: ease-in-out 0.3s;
+    color: #fff;
+}
+.team .member .social a:hover {
+    background: #111111;
+}
+.team .member .social i {
+    font-size: 18px;
+}
+.team .member .members-info {
+    background-color: #f1f3f4;
+    padding: 25px 15px;
+    border-radius: 0 0 5px 5px;
+    height: 100%;
+}
+.team .member .members-info h4{
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #111111;
+}
+.team .member .members-info span {
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    color: #aaaaaa;
+}
+.team .member .power1 {
+    background: #00ADB5;
+    color: white;
+}
+.team .member .power1 h4 {
+    color: white;
+}
+.team .member .power1 span {
+    color: white;
+}
+.team .member .power2 {
+    background: #393E46;
+    color: white;
+}
+.team .member .power2 h4 {
+    color: white;
+}
+.team .member .power2 span {
+    color: white;
+}
+#team {
+    padding: 30px 0;
+    overflow: hidden;
+    position: relative;
+}
+#team .section-title {
+    text-align: center;
+    position: relative;
+}
+#team .section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+#team .section-title h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 200px;
+    height: 3px;
+    background: #e03a3c;
+    bottom: 0;
+    left: calc(50% - 100px);
+}
+#team .section-title p {
+    margin-bottom: 0;
+}
+
+/* TEAMS MEDIA QUERIES */
+@media (max-width: 768px) {
+    .team .nav {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 15px;
+    }
+    .team .nav li {
+        width: 100%;
+    }
+    .teams-nav .nav-item-first, .teams-nav .nav-item-first button {
+        border-radius: 30px 0 0 0;
+    }
+    .teams-nav .nav-item-last, .teams-nav .nav-item-last button {
+        border-radius: 0 0 30px 0;
+    }
+}
+/*********************************************** TEAMS CSS END ************************************************/
