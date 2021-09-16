@@ -1,0 +1,118 @@
+/* #effects{
+    height:500px;
+    width:100%;
+} */
+.carousel-item-next, .carousel-item-prev, .carousel-item.active{
+    display: block !important;
+    
+}
+.ihv
+{
+    opacity:0.90;
+    transition-duration:0.75s;
+    width:100%;
+    transform:scale(1,1);
+}
+.ihv:hover{
+    opacity:1;
+    transform:scale(1.15,1.15);
+    overflow:hidden;
+} 
+/* .heading{
+    
+    font-family: Arial;
+    font-size: 70px;
+    color: #1d9af0;
+    
+}
+.subheading{
+    
+    font-family: Arial;
+    font-size: 50px;
+    color: #385667;
+    
+} */
+
+/* .carousel-caption
+{
+    background: RGBA(255,255,255,0.8);
+    opacity: 1;
+    padding: 0 ;
+    0.2em 0.4em 0.2em 0.4em
+    box-shadow: none;
+    border-width: 0px;
+    border-style: solid;
+    border-color: #000000;
+    border-color: RGBA(0,0,0,1);
+    border-radius: 0px; 
+} */
+/* .carousel-caption:hover{
+    font-family: 'Raleway','Arial';
+    color: #0b0b0b;
+    font-size: 225%;
+    text-shadow: none;
+    line-height: 1.5;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 10px;
+    word-spacing: normal;
+    text-transform: uppercase;
+} */
+
+/* @media only screen and(max-width:1500px)
+{
+    .carousel-caption{
+        font-size:50px; 
+        
+        padding-top: 4%;
+    }
+}
+@media only screen and(max-width:1200px)
+{
+    #effects{
+        height:450px;
+        width:100%;
+    }
+    .carousel-caption{
+        font-size:40px;
+        padding-top:4%;
+    }
+}
+@media only screen and(max-width:900px)
+{
+    #effects{
+        height:300px;
+        width:100%;
+    }
+    .carousel-caption{
+        font-size:30px;
+        padding-top:6%;
+    }
+}
+@media only screen and(max-width:700px)
+{
+    #effects{
+        height:250px;
+        width:100%;
+    }
+    .carousel-caption{
+        font-size:20px;
+        padding-top:4%;
+    }
+}
+@media only screen and(max-width:375px)
+{
+    #effects{
+        height:200px;
+        width:100%;
+    }
+    #carousalFull{
+        display:none;
+    }
+    .carousel-caption{
+        font-size:10px;
+        padding-top:4%;
+    }
+} */
